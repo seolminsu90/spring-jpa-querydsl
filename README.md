@@ -4,6 +4,8 @@ querydsl sample project
 
 ##### JPA 동적 쿼리 유연함을 위한 querydsl 적용 Sample
 
+---
+
 ##### 이클립스 Q Class를 자동 컴파일 설정
 
 ```bash
@@ -19,6 +21,8 @@ querydsl sample project
 
 6. .m2 폴더로부터 querydsl-apt jar 파일 Add
 ```
+
+---
 
 ##### Repository, RepositoryCustom, RepositoryImpl 조합
 
