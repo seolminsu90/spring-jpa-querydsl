@@ -1,4 +1,4 @@
-#### spring-jpa-querydsl
+### spring-jpa-querydsl
 querydsl sample project
 
 
@@ -27,6 +27,10 @@ querydsl sample project
 * RepositoryCustom을 implements 하여 구현한 RepositoryImpl 세트가 중요
 
 * Custom, Impl 네이밍을 맞추어 주어야 기능이 지원된다.
+
+__Repository(i) extends JpaRepository(i)
+Repository(i) extends RepositoryCustom(i)
+RepositoryImpl(c) implements RepositoryCustom(i)__
 
 ##### 참고 
 https://docs.spring.io/spring-data/jpa/docs/2.1.3.RELEASE/reference/html/#repositories.custom-implementations
