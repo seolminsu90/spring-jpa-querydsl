@@ -1,0 +1,18 @@
+db:
+  datasource:
+    driver-class-name: org.h2.Driver
+    jdbc-url: jdbc:h2:mem:test
+    username: sa
+    password:
+spring:
+  datasource:
+    schema: classpath:schema.sql
+    initialization-mode: always
+  h2:
+    console:
+      enabled: true  
+
+#datasource.driverClassName=com.mysql.cj.jdbc.Driver 
+#datasource.jdbcUrl=jdbc:mysql://localhost:3306/alert?serverTimezone=UTC 
+#datasource.username=alert 
+#datasource.password=test1234
